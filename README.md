@@ -110,7 +110,7 @@ curl -s http://localhost:8080/v1/chat/completions \
     ]
   }'
 ```
-fetch gateway logs to see if traffic is actually goes through gw
+fetch gateway logs to see if traffic actually goes through gw
 ```bash
 kubectl logs -n agentgateway-system deployment/agentgateway-proxy -f
 ```
